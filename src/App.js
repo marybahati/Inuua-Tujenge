@@ -8,7 +8,7 @@ function App() {
     <div style={{maxHeight: 500}}>
     <div className="container-fluid p-0">
         <img src='https://danmarhomes.com/wp-content/uploads/2018/12/1920X1080_Waterford.jpg' class="img-fluid" />
-        
+        <h2>welcome</h2>
     </div>
     </div>
   );
