@@ -35,3 +35,25 @@
   font-size: 25px;
   padding-right: 20px;
 }
+.start-button{
+  background-color:#21283B;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px 0;
+}
+@media (max-width: 576px) {
+  .intro-text{
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .select{
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .list{
+    font-size: 16px;
+  }
+}

@@ -10,14 +10,14 @@ function App() {
     <div >
       <div className="container-fluid p-0">
         <img src={house} className="img-fluid" />
-        <div className="intro-text col-sm-4 col-md-5 col-lg-4 col-xl-4"> 1 person purchased this </div>
+        <div className="intro-text col-sm-5 col-md-5 col-lg-4 col-xl-4"> 1 person purchased this </div>
       </div>
       <div className='container  mt-5'>
         <div className="row">
-          <div className="col-sm-3 col-md-3 col-lg-2 col-xl-2">
+          <div className=" col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <h4 className='sub-font-color'>Build cost</h4>
           </div>
-          <div className="col-sm-3 col-md-3 col-lg-4 col-xl-4">
+          <div className=" col-sm-2 col-md-3 col-lg-4 col-xl-4">
             <h4 className='main-color-font'> 5,747,856</h4>
           </div>
           <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sub-font-color id">
@@ -59,7 +59,7 @@ function App() {
             <span className='circle'>&#10003;</span>
           </div>
             <div className="col-10 bg-succcess sub-font-color ">
-            <h4>Architectural drawings in PDF format</h4>
+            <h4 className='list'>Architectural drawings in PDF format</h4>
           </div> 
           </div>
 
@@ -68,7 +68,7 @@ function App() {
             <span className='circle'>&#10003;</span>
           </div>
             <div className="col-10 bg-succcess sub-font-color ">
-            <h4>Bills of material and labour with budget <br/>costs
+            <h4 className='list'>Bills of material and labour with budget <br/>costs
            </h4>
           </div> 
           </div>
@@ -78,7 +78,7 @@ function App() {
             <span className='circle'>&#10003;</span>
           </div>
             <div className="col-10 bg-succcess sub-font-color ">
-            <h4>Access to a project management tool to <br/>help you manage your build
+            <h4 className='list'>Access to a project management tool to <br/>help you manage your build
            </h4>
           </div> 
           </div>
@@ -88,7 +88,7 @@ function App() {
             <span className='circle'>&#10003;</span>
           </div>
             <div className="col-10 bg-succcess sub-font-color ">
-            <h4>All engineering drawings
+            <h4 className='list'>All engineering drawings
            </h4>
           </div> 
           </div> 
@@ -98,12 +98,13 @@ function App() {
             <span className='circle'>&#10003;</span>
           </div>
             <div className="col-10 sub-font-color ">
-            <h4>Access to Inuua verified suppliers and  <br/> contractors
+            <h4 className='list'>Access to Inuua verified suppliers and  <br/> contractors
            </h4>
           </div> 
           </div>
           <h5 className='sub-font-color mt-5 mb-3'>PLAN PRICE</h5>
           <h1 className='main-color-font mb-5'>Ksh 20,000</h1>
+          <button className='col-12 start-button mb-5'>LET'S START</button>
       </div>
 
       </div>
