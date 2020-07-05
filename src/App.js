@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import house from './Assets/House.JPG';
+import house from './Assets/house.jpg';
 import one from './Assets/1.svg';
 import two from './Assets/2.svg';
 import area from './Assets/area.svg';
