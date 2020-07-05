@@ -97,11 +97,13 @@ function App() {
           <div className="col-1 ml-4  ">
             <span className='circle'>&#10003;</span>
           </div>
-            <div className="col-10 bg-succcess sub-font-color ">
+            <div className="col-10 sub-font-color ">
             <h4>Access to Inuua verified suppliers and  <br/> contractors
            </h4>
           </div> 
           </div>
+          <h5 className='sub-font-color mt-5 mb-3'>PLAN PRICE</h5>
+          <h1 className='main-color-font mb-5'>Ksh 20,000</h1>
       </div>
 
       </div>
